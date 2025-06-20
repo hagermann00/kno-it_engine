@@ -10,3 +10,4 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
+app.get('/hello', (req, res) => res.send('Hello Kno-It!'));
